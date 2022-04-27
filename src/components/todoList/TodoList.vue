@@ -1,7 +1,6 @@
 <template>
     
     <li class="list_item">
-        {{todo.completed}}
         <input 
             type="checkbox" 
             :check="todo.completed" 
